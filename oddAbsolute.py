@@ -1,7 +1,18 @@
 def calculateAbsolute():
     
     # This first line is provided for you
+    def absoluteValue(num):
+        if(num<0):
+            return (-num)
+        else:
+            return (num)
+
+
     in_num  = input("Enter a number: ")
+    if(in_num>21):
+        print ("Result:",2*absoluteValue(in_num-21))
+    else:
+        print ("Result:",absoluteValue(in_num-21)) 
     # end assignment
 
 ## if you want to test locally before you try to sync
